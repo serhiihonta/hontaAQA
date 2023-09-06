@@ -56,7 +56,8 @@ print(modified_date)
 def find_age(birthdate):
     current_datetime = datetime.now()
     age = current_datetime - birthdate
-    return age, current_datetime.timestamp()
+    age_timestamp = age.total_seconds()
+    return age, age_timestamp
 
 
 birthdate = datetime(1989, 12, 17)
