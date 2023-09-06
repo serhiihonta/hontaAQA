@@ -64,4 +64,4 @@ birthdate = datetime(1989, 12, 17)
 age, timestamp = find_age(birthdate)
 
 print(f"Current age: {age}")
-print(f"Current age in timestamp: {timestamp}")
+print(f"Current age in timestamp: {age_timestamp}")
