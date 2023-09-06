@@ -59,7 +59,6 @@ def find_age(birthdate):
     age_timestamp = age.total_seconds()
     return age, age_timestamp
 
-
 birthdate = datetime(1989, 12, 17)
 age, age_timestamp = find_age(birthdate)
 
