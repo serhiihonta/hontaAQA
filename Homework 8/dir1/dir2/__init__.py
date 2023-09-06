@@ -1,0 +1,1 @@
+from .dir3 import umnozhit
