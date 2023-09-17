@@ -18,3 +18,23 @@
 або інша комбінація. Нехай на певних зупинках люди заходять, на певних виходять. Виведіть в консоль людей, які зайшли в
 потяг на кожній станції, які вийшли.
 """
+
+
+class Train:
+    train_cars = ()
+    train_length = None
+
+    def __init__(self):
+        pass
+
+    def trainLength(self, train_length, train_cars):
+        train_length = len(train_cars)
+
+
+    @classmethod
+    def addTrainCar(self, num):
+        self.train_cars.append(num)
+
+    Train.addTrainCar(11)
+
+    print(Train.train_cars)
