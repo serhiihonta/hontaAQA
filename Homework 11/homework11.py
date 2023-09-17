@@ -63,5 +63,3 @@ print(tankman.info())
 
 sunflowers.value = 42000
 print(f"Cost of'{sunflowers.title}': ${sunflowers.value}.")
-
-david.value = -5000
