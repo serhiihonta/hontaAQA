@@ -21,20 +21,18 @@
 
 
 class Train:
-    train_cars = ()
-    train_length = None
 
-    def __init__(self):
-        pass
+    def __init__(self, name, train_cars):
+        self.train_cars = ()
 
     def trainLength(self, train_length, train_cars):
         train_length = len(train_cars)
 
-
-    @classmethod
-    def addTrainCar(self, num):
+    def addTrainCar(self, num=int):
         self.train_cars.append(num)
 
-    Train.addTrainCar(11)
 
-    print(Train.train_cars)
+trainFly = Train(1)
+#trainFly.addTrainCar(11)
+
+print(Train.train_cars)
